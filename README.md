@@ -10,9 +10,35 @@ Name: `merge.cpp`
 
 ## Queue implementation using Stack
 
+Your queue should be a `class` and need to have these functions:
+```
+class Queue{
+public:
+	Queue(){};
+	void push(int x);
+	void pop();
+	int front();
+	int size();
+	bool empty();	
+}
+```
+
 Name: `queue.cpp`
 
 ## Stack implementation using Queue
+
+Your stack should be a `class` and need to have these functions:
+```
+class Stack{
+public:
+	Stack(){};
+	void push(int x);
+	void pop();
+	int top();
+	int size();
+	bool empty();	
+}
+```
 
 Name: `stack.cpp`
 
