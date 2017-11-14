@@ -53,6 +53,9 @@ And traverse each node using BFS and DFS.
 If possible, implement BFS and DFS using recursive method.
 
 Structure:
-`Graph.h`
-`Graph.cpp`
-`graph_test.cpp` includes `main()` function and the graph instance.
+```
+Graph
+|-Graph.h
+|-Graph.cpp
+|-graph_test.cpp //includes main() function and the graph instance.
+```
